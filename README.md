@@ -1,1 +1,3 @@
-js-programming-basics
+#js-programming-basics
+
+Демонстрационный учебный проект для курса основ программирования.
