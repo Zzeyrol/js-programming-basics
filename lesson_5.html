@@ -9,7 +9,15 @@
   <body>
     <h1>Ввод и вывод</h1>
     <p>Ввод значений из поля и варианты вывода</p>
-    <input type="text" name="mytext" value="">
-    <button type="button" name="button" onclick="showMeAlert();">Показать сообщение с поля</button>
+    <br>
+    <h2 class="myoutput">Здесь выведется текст из поля при нажатии на кнопку</h2>
+    <br>
+    <input id="myinput" type="text" name="mytext" value="">
+    <br>
+    <button type="button" name="button" onclick="showMeAlert();">Показать текст в виде Алерта</button>
+    <br>
+    <button type="button" name="button" onclick="writeToConsole();">Показать текст в консоли</button>
+    <br>
+    <button type="button" name="button" onclick="writeToHeader();">Показать текст в заголовке</button>
   </body>
 </html>
