@@ -1,9 +1,10 @@
 // Здесь должен быть итоговый код калькулятора
 
 function summ(){
-go = document.getElementById('first_number').value
-just = document.getElementById('second_number').value
-console.log( go + just)
+var go = Number(document.getElementById('first_number').value)
+var just = Number(document.getElementById('second_number').value)	
+var otvet = go + just
+document.getElementById("result").innerHTML = otvet 
 }
 
 console.log('Скрипт загружен');
